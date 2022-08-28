@@ -62,12 +62,23 @@ function createGenesisBlock(options) {
   return block;
 }
 
+/* yzs_2022_08_28 */
+/*
 const main = createGenesisBlock({
   version: 1,
   time: 1231006505,
   bits: 486604799,
   nonce: 2083236893
 });
+*/
+
+const main =createGenesisBlock({
+  version: 1,
+  time: 1296688602,
+  bits: 489715773,
+  nonce: 20859147
+});
+
 
 const testnet = createGenesisBlock({
   version: 1,
